@@ -58,15 +58,15 @@
 
 // 4. Реалізуйте функцію знаходження факторіала
 
-// function factorial(n){
-//     var result = 1;
-//     while(n){
-//         result *= n--;
-//     }
-//     return result;
-// }
+function factorial(n){
+    let result = 1;
+    while(n){
+        result *= n--;
+    }
+    return result;
+}
 
-// console.log(factorial(5));
+console.log(factorial(5));
 
 
 // 5.  Напишіть функцію яка отримує години хвилини та секунди і повертає це число в секундах. 
